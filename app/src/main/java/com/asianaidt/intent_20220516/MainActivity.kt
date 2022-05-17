@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(myIntent)
 
-
         }
 
         btnEditNickname.setOnClickListener{
@@ -42,9 +41,6 @@ class MainActivity : AppCompatActivity() {
 //         2. 편도X, 왕복으로 간다고 명시
             startActivityForResult(myIntent,REQ_CODE_NICKNAME)
         }
-
-
-
 
 
     }
